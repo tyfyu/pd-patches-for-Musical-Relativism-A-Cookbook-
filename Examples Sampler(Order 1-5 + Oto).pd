@@ -1,0 +1,114 @@
+#N canvas 4 23 1276 755 10;
+#X obj 178 199 dac~;
+#X obj 211 201 vsl 15 50 0 0.1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 56 151 osc~ 50;
+#X obj 55 108 osc~ 100;
+#X obj 111 75 osc~ 200;
+#X obj 178 74 osc~ 400;
+#X obj 178 165 *~ 0.3;
+#X obj 249 103 osc~ 800;
+#X obj 252 150 osc~ 1600;
+#X obj 568 200 dac~;
+#X obj 601 201 vsl 15 50 0 0.1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 568 166 *~ 0.1;
+#X obj 186 454 dac~;
+#X obj 219 455 vsl 15 50 0 0.1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 186 420 *~ 0.1;
+#X obj 64 404 osc~ 50.16;
+#X obj 63 363 osc~ 100.32;
+#X obj 109 318 osc~ 200.48;
+#X obj 186 317 osc~ 400.64;
+#X obj 257 358 osc~ 800.81;
+#X obj 260 405 osc~ 1600.96;
+#X obj 572 446 dac~;
+#X obj 611 447 vsl 15 50 0 0.05 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 667 398 phasor~ 1600.01;
+#X obj 664 351 phasor~ 800.02;
+#X obj 572 305 phasor~ 400.03;
+#X obj 474 305 phasor~ 200.04;
+#X obj 413 349 phasor~ 100.05;
+#X obj 415 396 phasor~ 50.06;
+#X obj 946 321 dac~;
+#X obj 979 323 vsl 15 50 0 0.5 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 797 271 osc~ 800;
+#X obj 796 241 osc~ 976;
+#X obj 837 184 osc~ 1200;
+#X obj 897 184 osc~ 1464;
+#X obj 1000 185 osc~ 1600;
+#X obj 1060 185 osc~ 1952;
+#X obj 1060 250 osc~ 2000;
+#X obj 1060 273 osc~ 2440;
+#X obj 946 287 *~ 0.5;
+#X obj 446 150 osc~ 50.5;
+#X obj 445 109 osc~ 101;
+#X obj 494 76 osc~ 202.5;
+#X obj 568 75 osc~ 404.5;
+#X obj 639 104 osc~ 807;
+#X obj 642 151 osc~ 1610;
+#X obj 572 412 *~ 0.05;
+#X text 108 37 1st Order/ Tonic;
+#X text 493 32 2nd Order/ Polyrhythm;
+#X text 107 285 3rd Order/ Phasing;
+#X text 473 280 4th Order/ SAW;
+#X text 838 148 5th Order/ Otoacousitc Tonic;
+#X text 49 -144 Welcome to a hands on sampler for the "Musical Relativism:
+Cookbook". Below you'll find the mockup trees. Please feel free to
+use these in any way you wish: as a jumping off point \, as a reference
+or general template. Quick note \, for your ears: be sure to manually
+reset each volume slider \, as they are naturally active. It is perhaps
+wise to do this before switching on the DSP \, to avoid a scare or
+any serious damage to your ears. All of these recordings can be found
+and played back @ thankyouforyourunderstanding.com/cookbook Enjoy!
+B;
+#X connect 1 0 6 1;
+#X connect 2 0 6 0;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 0 0;
+#X connect 6 0 0 1;
+#X connect 7 0 6 0;
+#X connect 8 0 6 0;
+#X connect 10 0 11 1;
+#X connect 11 0 9 0;
+#X connect 11 0 9 1;
+#X connect 13 0 14 1;
+#X connect 14 0 12 0;
+#X connect 14 0 12 1;
+#X connect 15 0 14 0;
+#X connect 16 0 14 0;
+#X connect 17 0 14 0;
+#X connect 18 0 14 0;
+#X connect 19 0 14 0;
+#X connect 20 0 14 0;
+#X connect 22 0 46 1;
+#X connect 23 0 46 0;
+#X connect 24 0 46 0;
+#X connect 25 0 46 0;
+#X connect 26 0 46 0;
+#X connect 27 0 46 0;
+#X connect 28 0 46 0;
+#X connect 30 0 39 1;
+#X connect 31 0 39 0;
+#X connect 32 0 39 0;
+#X connect 33 0 39 0;
+#X connect 34 0 39 0;
+#X connect 35 0 39 0;
+#X connect 36 0 39 0;
+#X connect 37 0 39 0;
+#X connect 38 0 39 0;
+#X connect 39 0 29 0;
+#X connect 39 0 29 1;
+#X connect 40 0 11 0;
+#X connect 41 0 11 0;
+#X connect 42 0 11 0;
+#X connect 43 0 11 0;
+#X connect 44 0 11 0;
+#X connect 45 0 11 0;
+#X connect 46 0 21 0;
+#X connect 46 0 21 1;
